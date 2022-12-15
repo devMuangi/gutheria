@@ -11,6 +11,10 @@
     {
       "id": "logInPage",
       "isDefault": false
+    },
+    {
+      "id": "staffPage",
+      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -19,6 +23,9 @@
   "color": "#F4FFDE",
   "icon": "shirt",
   "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "publishedAppLayout": {
     "type": "FLUID"
   },
   "evaluationVersion": 2,
