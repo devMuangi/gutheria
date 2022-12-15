@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 570,
+          "bottomRow": 1290,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -1186,7 +1186,7 @@
                   "widgetName": "Canvas3",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 360,
+                  "bottomRow": 350,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -1208,8 +1208,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 30,
-                      "bottomRow": 34,
+                      "topRow": 29,
+                      "bottomRow": 33,
                       "parentRowSpace": 10,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
@@ -1220,7 +1220,7 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 38,
+                      "leftColumn": 33,
                       "dynamicBindingPathList": [
                         {
                           "key": "borderRadius"
@@ -1230,7 +1230,7 @@
                       "isDisabled": false,
                       "key": "ehq8vddnhe",
                       "isDeprecated": false,
-                      "rightColumn": 58,
+                      "rightColumn": 60,
                       "isDefaultClickDisabled": true,
                       "iconName": "delete",
                       "widgetId": "u0uhviozmu",
@@ -1240,10 +1240,10 @@
                       "parentId": "wok9byg5ei",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "originalTopRow": 28,
+                      "originalTopRow": 30,
                       "disabledWhenInvalid": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "originalBottomRow": 32,
+                      "originalBottomRow": 34,
                       "iconAlign": "left",
                       "placement": "CENTER"
                     },
@@ -1256,8 +1256,8 @@
                         "paragraph",
                         "label"
                       ],
-                      "topRow": 8,
-                      "bottomRow": 12,
+                      "topRow": 7,
+                      "bottomRow": 11,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -1297,10 +1297,10 @@
                       "parentId": "wok9byg5ei",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "originalTopRow": 7,
+                      "originalTopRow": 8,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 11,
+                      "originalBottomRow": 12,
                       "fontSize": "1rem",
                       "minDynamicHeight": 4
                     },
@@ -1313,8 +1313,8 @@
                         "paragraph",
                         "label"
                       ],
-                      "topRow": 20,
-                      "bottomRow": 25,
+                      "topRow": 19,
+                      "bottomRow": 24,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -1354,10 +1354,10 @@
                       "parentId": "wok9byg5ei",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "originalTopRow": 19,
+                      "originalTopRow": 20,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 23,
+                      "originalBottomRow": 25,
                       "fontSize": "1rem",
                       "minDynamicHeight": 4
                     },
@@ -1371,7 +1371,7 @@
                         "label"
                       ],
                       "topRow": 2,
-                      "bottomRow": 7,
+                      "bottomRow": 6,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -1414,7 +1414,7 @@
                       "originalTopRow": 2,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 6,
+                      "originalBottomRow": 7,
                       "fontSize": "1rem",
                       "minDynamicHeight": 4
                     },
@@ -1426,8 +1426,8 @@
                       "searchTags": [
                         "call"
                       ],
-                      "topRow": 13,
-                      "bottomRow": 18,
+                      "topRow": 12,
+                      "bottomRow": 17,
                       "parentRowSpace": 10,
                       "labelWidth": 5,
                       "defaultDialCode": "+254",
@@ -1470,10 +1470,10 @@
                       "allowFormatting": true,
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "originalTopRow": 12,
+                      "originalTopRow": 13,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 17,
+                      "originalBottomRow": 18,
                       "iconAlign": "left",
                       "defaultText": "{{fetch_customer_details.data[0].PHONENO}}",
                       "minDynamicHeight": 4
@@ -1490,8 +1490,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 30,
-                      "bottomRow": 34,
+                      "topRow": 29,
+                      "bottomRow": 33,
                       "parentRowSpace": 10,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
@@ -1522,10 +1522,10 @@
                       "parentId": "wok9byg5ei",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "originalTopRow": 28,
+                      "originalTopRow": 30,
                       "disabledWhenInvalid": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "originalBottomRow": 32,
+                      "originalBottomRow": 34,
                       "buttonVariant": "PRIMARY",
                       "iconAlign": "left",
                       "placement": "CENTER"
@@ -1539,8 +1539,8 @@
                         "paragraph",
                         "label"
                       ],
-                      "topRow": 20,
-                      "bottomRow": 24,
+                      "topRow": 19,
+                      "bottomRow": 23,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -1577,10 +1577,10 @@
                       "parentId": "wok9byg5ei",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "originalTopRow": 19,
+                      "originalTopRow": 20,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 23,
+                      "originalBottomRow": 24,
                       "fontSize": "1rem",
                       "minDynamicHeight": 4
                     }
@@ -1619,7 +1619,7 @@
             },
             {
               "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-              "widgetName": "Container3",
+              "widgetName": "header_container",
               "borderColor": "#E0DEDE",
               "isCanvas": true,
               "displayName": "Container",

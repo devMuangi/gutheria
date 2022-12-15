@@ -2,7 +2,15 @@
   "pages": [
     {
       "id": "customerPage",
+      "isDefault": false
+    },
+    {
+      "id": "HomePage",
       "isDefault": true
+    },
+    {
+      "id": "logInPage",
+      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -10,6 +18,9 @@
   "unreadCommentThreads": 0,
   "color": "#F4FFDE",
   "icon": "shirt",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
   "evaluationVersion": 2,
   "applicationVersion": 2,
   "isManualUpdate": false,
