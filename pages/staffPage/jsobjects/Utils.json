@@ -1,0 +1,16 @@
+{
+  "unpublishedCollection": {
+    "name": "Utils",
+    "pageId": "staffPage",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\n\tgenerateRandom:()=>{\n\t\treturn '_' + Math.random().toString(36).substr(2,9);\n\t\t\n\t}\n\n}",
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "staffPage_Utils",
+  "deleted": false,
+  "gitSyncId": "6392c73f4b95806da2da4ff0_639bf9bd7b3ff97723beb07e"
+}

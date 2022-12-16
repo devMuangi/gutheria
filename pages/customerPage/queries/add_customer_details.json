@@ -42,7 +42,7 @@
           "data": ""
         },
         "rowObjects": {
-          "data": "{\n\t\"NAME\": \"{{name_input.text}}\",\n    \"PHONENO\": \"{{phone_input.dialCode}}\",\n    \"DESIGNATION\": \"{{designation_input.text}}\",\n    \"LOCATION\": \"{{location_input.text}}\",\n\t  \"CID\":\"{{Utils.generateRandom()}}\"\n    \n}"
+          "data": "{\n\t\"NAME\": \"{{name_input.text}}\",\n    \"PHONENO\": \"{{phone_input.text}}\",\n    \"DESIGNATION\": \"{{designation_input.text}}\",\n    \"LOCATION\": \"{{location_input.text}}\",\n\t  \"CID\":\"{{Utils.generateRandom()}}\"\n    \n}"
         },
         "sheetName": {
           "data": "customer_details"
@@ -77,7 +77,7 @@
       "designation_input.text",
       "location_input.text",
       "name_input.text",
-      "phone_input.dialCode"
+      "phone_input.text"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
