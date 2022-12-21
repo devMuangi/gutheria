@@ -89,7 +89,7 @@
                       "fontFamily": "Ubuntu",
                       "parentColumnSpace": 10.0625,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 0,
+                      "leftColumn": 1,
                       "dynamicBindingPathList": [
                         {
                           "key": "truncateButtonColor"
@@ -103,7 +103,7 @@
                       "text": "gutheria ",
                       "key": "qd057jngud",
                       "isDeprecated": false,
-                      "rightColumn": 18,
+                      "rightColumn": 26,
                       "textAlign": "LEFT",
                       "dynamicHeight": "FIXED",
                       "widgetId": "r0jvov20gt",
@@ -1124,7 +1124,7 @@
                       "isDisabled": false,
                       "key": "eco3it5urq",
                       "isDeprecated": false,
-                      "rightColumn": 54,
+                      "rightColumn": 55,
                       "isDefaultClickDisabled": true,
                       "iconName": "refresh",
                       "widgetId": "edk1lkxcjk",
@@ -1142,7 +1142,7 @@
                     },
                     {
                       "resetFormOnClick": false,
-                      "boxShadow": "none",
+                      "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
                       "widgetName": "add_new_customer_button",
                       "onClick": "{{showModal('add_staff_modal')}}",
                       "buttonColor": "#14532d",
@@ -1174,7 +1174,7 @@
                       "isDisabled": false,
                       "key": "eco3it5urq",
                       "isDeprecated": false,
-                      "rightColumn": 61,
+                      "rightColumn": 62,
                       "isDefaultClickDisabled": true,
                       "iconName": "new-person",
                       "widgetId": "k6i8ouj7s2",
