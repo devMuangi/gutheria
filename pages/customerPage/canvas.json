@@ -667,12 +667,12 @@
                   "widgetName": "Canvas2",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 800,
+                  "bottomRow": 820,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
                   "hideCard": true,
-                  "minHeight": 800,
+                  "minHeight": 820,
                   "parentColumnSpace": 1,
                   "leftColumn": 0,
                   "dynamicBindingPathList": [],
@@ -727,10 +727,12 @@
                       ],
                       "leftColumn": 0,
                       "delimiter": ",",
+                      "variant": "VARIANT2",
                       "defaultSelectedRowIndex": 0,
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "isVisibleFilters": true,
                       "isVisible": true,
+                      "fontStyle": "BOLD",
                       "enableClientSideSearch": true,
                       "version": 1,
                       "totalRecordsCount": 0,
@@ -759,7 +761,7 @@
                         }
                       },
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "originalBottomRow": 80,
+                      "originalBottomRow": 82,
                       "defaultSelectedRowIndices": [
                         0
                       ],
@@ -803,8 +805,8 @@
                           "verticalAlignment": "CENTER",
                           "columnType": "number",
                           "textColor": "",
-                          "textSize": "0.875rem",
-                          "fontStyle": "",
+                          "textSize": "1rem",
+                          "fontStyle": "BOLD",
                           "enableFilter": true,
                           "enableSort": true,
                           "isVisible": false,
@@ -818,7 +820,7 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{customer_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"AMOUNT\"]))}}",
                           "validation": {},
-                          "cellBackground": ""
+                          "cellBackground": "#dcfce7"
                         },
                         "DESIGNATION": {
                           "allowCellWrapping": false,
@@ -831,8 +833,8 @@
                           "verticalAlignment": "CENTER",
                           "columnType": "text",
                           "textColor": "",
-                          "textSize": "0.875rem",
-                          "fontStyle": "",
+                          "textSize": "1rem",
+                          "fontStyle": "BOLD",
                           "enableFilter": true,
                           "enableSort": true,
                           "isVisible": false,
@@ -846,7 +848,7 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{customer_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"DESIGNATION\"]))}}",
                           "validation": {},
-                          "cellBackground": ""
+                          "cellBackground": "#dcfce7"
                         },
                         "LOCATION": {
                           "allowCellWrapping": false,
@@ -859,8 +861,8 @@
                           "verticalAlignment": "CENTER",
                           "columnType": "text",
                           "textColor": "",
-                          "textSize": "0.875rem",
-                          "fontStyle": "",
+                          "textSize": "1rem",
+                          "fontStyle": "BOLD",
                           "enableFilter": true,
                           "enableSort": true,
                           "isVisible": false,
@@ -874,7 +876,7 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{customer_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"LOCATION\"]))}}",
                           "validation": {},
-                          "cellBackground": ""
+                          "cellBackground": "#dcfce7"
                         },
                         "rowIndex": {
                           "allowCellWrapping": false,
@@ -887,8 +889,8 @@
                           "verticalAlignment": "CENTER",
                           "columnType": "number",
                           "textColor": "",
-                          "textSize": "0.875rem",
-                          "fontStyle": "",
+                          "textSize": "1rem",
+                          "fontStyle": "BOLD",
                           "enableFilter": true,
                           "enableSort": true,
                           "isVisible": false,
@@ -902,7 +904,7 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{customer_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"rowIndex\"]))}}",
                           "validation": {},
-                          "cellBackground": ""
+                          "cellBackground": "#dcfce7"
                         },
                         "CID": {
                           "allowCellWrapping": false,
@@ -915,8 +917,8 @@
                           "verticalAlignment": "CENTER",
                           "columnType": "number",
                           "textColor": "",
-                          "textSize": "0.875rem",
-                          "fontStyle": "",
+                          "textSize": "1rem",
+                          "fontStyle": "BOLD",
                           "enableFilter": true,
                           "enableSort": true,
                           "isVisible": false,
@@ -930,7 +932,7 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{customer_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"CID\"]))}}",
                           "validation": {},
-                          "cellBackground": ""
+                          "cellBackground": "#dcfce7"
                         },
                         "PHONENO": {
                           "allowCellWrapping": false,
@@ -943,8 +945,8 @@
                           "verticalAlignment": "CENTER",
                           "columnType": "number",
                           "textColor": "",
-                          "textSize": "0.875rem",
-                          "fontStyle": "",
+                          "textSize": "1rem",
+                          "fontStyle": "BOLD",
                           "enableFilter": true,
                           "enableSort": true,
                           "isVisible": false,
@@ -958,7 +960,7 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{customer_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"PHONENO\"]))}}",
                           "validation": {},
-                          "cellBackground": ""
+                          "cellBackground": "#dcfce7"
                         },
                         "JOINEDON": {
                           "allowCellWrapping": false,
@@ -971,8 +973,8 @@
                           "verticalAlignment": "CENTER",
                           "columnType": "date",
                           "textColor": "",
-                          "textSize": "0.875rem",
-                          "fontStyle": "",
+                          "textSize": "1rem",
+                          "fontStyle": "BOLD",
                           "enableFilter": true,
                           "enableSort": true,
                           "isVisible": false,
@@ -986,7 +988,7 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{customer_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"JOINEDON\"]))}}",
                           "validation": {},
-                          "cellBackground": ""
+                          "cellBackground": "#dcfce7"
                         },
                         "NAME": {
                           "allowCellWrapping": false,
@@ -999,8 +1001,8 @@
                           "verticalAlignment": "CENTER",
                           "columnType": "text",
                           "textColor": "",
-                          "textSize": "0.875rem",
-                          "fontStyle": "",
+                          "textSize": "1rem",
+                          "fontStyle": "BOLD",
                           "enableFilter": true,
                           "enableSort": true,
                           "isVisible": true,
@@ -1014,14 +1016,14 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{customer_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"NAME\"]))}}",
                           "validation": {},
-                          "cellBackground": ""
+                          "cellBackground": "#dcfce7"
                         }
                       },
                       "onRowSelected": "{{fetch_customer_details.run(() => {}, () => {})}}",
                       "key": "31ng1lkeic",
                       "isDeprecated": false,
                       "rightColumn": 64,
-                      "textSize": "0.875rem",
+                      "textSize": "1rem",
                       "widgetId": "r27g0c5ftf",
                       "tableData": "{{fetch_customers.data}}",
                       "label": "Data",
@@ -1030,8 +1032,9 @@
                       "renderMode": "CANVAS",
                       "horizontalAlignment": "LEFT",
                       "isVisibleSearch": true,
-                      "originalTopRow": 5,
+                      "originalTopRow": 7,
                       "isVisiblePagination": true,
+                      "cellBackground": "#dcfce7",
                       "verticalAlignment": "CENTER"
                     },
                     {
@@ -1070,7 +1073,7 @@
                       "text": "customers",
                       "key": "qd057jngud",
                       "isDeprecated": false,
-                      "rightColumn": 38,
+                      "rightColumn": 54,
                       "textAlign": "LEFT",
                       "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "rf9ejnm3zj",
@@ -1084,7 +1087,7 @@
                       "originalTopRow": 1,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 5,
+                      "originalBottomRow": 7,
                       "fontSize": "1.25rem",
                       "minDynamicHeight": 4
                     }
@@ -1104,9 +1107,9 @@
               ],
               "borderWidth": "1",
               "key": "m7hnamqxxo",
-              "backgroundColor": "#FFFFFF",
+              "backgroundColor": "#f0fdf4",
               "isDeprecated": false,
-              "rightColumn": 34,
+              "rightColumn": 27,
               "dynamicHeight": "FIXED",
               "widgetId": "ac7nh3u7rb",
               "containerStyle": "card",
@@ -1142,7 +1145,7 @@
               "animateLoading": true,
               "parentColumnSpace": 10.0625,
               "dynamicTriggerPathList": [],
-              "leftColumn": 34,
+              "leftColumn": 27,
               "dynamicBindingPathList": [
                 {
                   "key": "borderRadius"
@@ -1156,7 +1159,7 @@
                   "widgetName": "Canvas3",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 350,
+                  "bottomRow": 360,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -1178,8 +1181,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 29,
-                      "bottomRow": 33,
+                      "topRow": 30,
+                      "bottomRow": 34,
                       "parentRowSpace": 10,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
@@ -1190,7 +1193,7 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 34,
+                      "leftColumn": 21,
                       "dynamicBindingPathList": [
                         {
                           "key": "borderRadius"
@@ -1200,7 +1203,7 @@
                       "isDisabled": false,
                       "key": "ehq8vddnhe",
                       "isDeprecated": false,
-                      "rightColumn": 64,
+                      "rightColumn": 42,
                       "isDefaultClickDisabled": true,
                       "iconName": "delete",
                       "widgetId": "u0uhviozmu",
@@ -1284,7 +1287,7 @@
                         "label"
                       ],
                       "topRow": 19,
-                      "bottomRow": 23,
+                      "bottomRow": 24,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -1482,7 +1485,7 @@
                       "isDisabled": false,
                       "key": "ehq8vddnhe",
                       "isDeprecated": false,
-                      "rightColumn": 34,
+                      "rightColumn": 20,
                       "isDefaultClickDisabled": true,
                       "iconName": "edit",
                       "widgetId": "autjtzrzt0",
@@ -1570,7 +1573,7 @@
               ],
               "borderWidth": "1",
               "key": "pgwu1nrkk4",
-              "backgroundColor": "#FFFFFF",
+              "backgroundColor": "#fff",
               "isDeprecated": false,
               "rightColumn": 64,
               "dynamicHeight": "FIXED",
@@ -1697,7 +1700,7 @@
               ],
               "borderWidth": "1",
               "key": "4gnwck6und",
-              "backgroundColor": "#FFFFFF",
+              "backgroundColor": "#f0fdf4",
               "isDeprecated": false,
               "rightColumn": 63,
               "dynamicHeight": "FIXED",
