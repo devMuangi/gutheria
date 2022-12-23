@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 600,
+          "bottomRow": 460,
           "containerStyle": "none",
           "snapRows": 60,
           "parentRowSpace": 1,
@@ -38,7 +38,7 @@
                 "group"
               ],
               "topRow": 0,
-              "bottomRow": 6,
+              "bottomRow": 10,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -60,12 +60,12 @@
                   "widgetName": "Canvas4",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 70,
+                  "bottomRow": 100,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
                   "hideCard": true,
-                  "minHeight": 70,
+                  "minHeight": 100,
                   "parentColumnSpace": 1,
                   "leftColumn": 0,
                   "dynamicBindingPathList": [],
@@ -191,7 +191,7 @@
               "backgroundColor": "#FFFFFF",
               "isDeprecated": false,
               "rightColumn": 63,
-              "dynamicHeight": "FIXED",
+              "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "p34ld46d51",
               "containerStyle": "card",
               "isVisible": true,
@@ -199,8 +199,10 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
+              "originalTopRow": 0,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
+              "originalBottomRow": 10,
               "minDynamicHeight": 10
             },
             {
@@ -472,8 +474,8 @@
                 "parent",
                 "group"
               ],
-              "topRow": 9,
-              "bottomRow": 26,
+              "topRow": 13,
+              "bottomRow": 31,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -481,7 +483,7 @@
               "animateLoading": true,
               "parentColumnSpace": 9.435546875,
               "dynamicTriggerPathList": [],
-              "leftColumn": 6,
+              "leftColumn": 1,
               "dynamicBindingPathList": [
                 {
                   "key": "borderRadius"
@@ -495,12 +497,12 @@
                   "widgetName": "Canvas6",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 170,
+                  "bottomRow": 180,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
                   "hideCard": true,
-                  "minHeight": 170,
+                  "minHeight": 180,
                   "parentColumnSpace": 1,
                   "leftColumn": 0,
                   "dynamicBindingPathList": [],
@@ -517,8 +519,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 8,
-                      "bottomRow": 15,
+                      "topRow": 9,
+                      "bottomRow": 16,
                       "parentRowSpace": 10,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
@@ -529,7 +531,7 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 0,
+                      "leftColumn": 7,
                       "dynamicBindingPathList": [
                         {
                           "key": "borderRadius"
@@ -539,7 +541,7 @@
                       "isDisabled": false,
                       "key": "n0l70cy2ml",
                       "isDeprecated": false,
-                      "rightColumn": 20,
+                      "rightColumn": 27,
                       "isDefaultClickDisabled": true,
                       "widgetId": "4nqzwo2c0o",
                       "isVisible": true,
@@ -565,8 +567,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 8,
-                      "bottomRow": 15,
+                      "topRow": 9,
+                      "bottomRow": 16,
                       "parentRowSpace": 10,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
@@ -577,7 +579,7 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 38,
+                      "leftColumn": 37,
                       "dynamicBindingPathList": [
                         {
                           "key": "borderRadius"
@@ -587,7 +589,7 @@
                       "isDisabled": false,
                       "key": "n0l70cy2ml",
                       "isDeprecated": false,
-                      "rightColumn": 54,
+                      "rightColumn": 56,
                       "isDefaultClickDisabled": true,
                       "widgetId": "mq3b0yi807",
                       "isVisible": true,
@@ -625,7 +627,7 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 38,
+                      "leftColumn": 37,
                       "dynamicBindingPathList": [
                         {
                           "key": "borderRadius"
@@ -635,7 +637,7 @@
                       "isDisabled": false,
                       "key": "n0l70cy2ml",
                       "isDeprecated": false,
-                      "rightColumn": 54,
+                      "rightColumn": 56,
                       "isDefaultClickDisabled": true,
                       "widgetId": "qp8w0x4x3b",
                       "isVisible": true,
@@ -673,7 +675,7 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 0,
+                      "leftColumn": 7,
                       "dynamicBindingPathList": [
                         {
                           "key": "borderRadius"
@@ -683,7 +685,7 @@
                       "isDisabled": false,
                       "key": "n0l70cy2ml",
                       "isDeprecated": false,
-                      "rightColumn": 20,
+                      "rightColumn": 27,
                       "isDefaultClickDisabled": true,
                       "widgetId": "f87m3mdhvx",
                       "isVisible": true,
@@ -724,10 +726,10 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "originalTopRow": 9,
+              "originalTopRow": 13,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 29,
+              "originalBottomRow": 31,
               "minDynamicHeight": 10
             },
             {
