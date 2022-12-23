@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1050,
+          "bottomRow": 920,
           "containerStyle": "none",
           "snapRows": 53,
           "parentRowSpace": 1,
@@ -153,7 +153,7 @@
             {
               "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
               "widgetName": "Container2",
-              "borderColor": "#E0DEDE",
+              "borderColor": "{{appsmith.theme.colors.backgroundColor}}",
               "isCanvas": true,
               "displayName": "Container",
               "iconSVG": "/static/media/icon.1977dca3370505e2db3a8e44cfd54907.svg",
@@ -163,7 +163,7 @@
                 "group"
               ],
               "topRow": 8,
-              "bottomRow": 97,
+              "bottomRow": 84,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -178,6 +178,12 @@
                 },
                 {
                   "key": "boxShadow"
+                },
+                {
+                  "key": "backgroundColor"
+                },
+                {
+                  "key": "borderColor"
                 }
               ],
               "children": [
@@ -185,12 +191,12 @@
                   "widgetName": "Canvas5",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 890,
+                  "bottomRow": 760,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
                   "hideCard": true,
-                  "minHeight": 890,
+                  "minHeight": 760,
                   "parentColumnSpace": 1,
                   "leftColumn": 0,
                   "dynamicBindingPathList": [],
@@ -305,7 +311,7 @@
                       ],
                       "dynamicPropertyPathList": [],
                       "displayName": "Table",
-                      "bottomRow": 45,
+                      "bottomRow": 33,
                       "columnWidthMap": {
                         "task": 245,
                         "step": 62,
@@ -346,7 +352,7 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{staff_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"NAME\"]))}}",
                           "validation": {},
-                          "cellBackground": "#dcfce7"
+                          "cellBackground": "#f0fdf4"
                         },
                         "PHONENO": {
                           "allowCellWrapping": false,
@@ -374,7 +380,7 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{staff_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"PHONENO\"]))}}",
                           "validation": {},
-                          "cellBackground": "#dcfce7"
+                          "cellBackground": "#f0fdf4"
                         },
                         "DESIGNATION": {
                           "allowCellWrapping": false,
@@ -402,7 +408,7 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{staff_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"DESIGNATION\"]))}}",
                           "validation": {},
-                          "cellBackground": "#dcfce7"
+                          "cellBackground": "#f0fdf4"
                         },
                         "IDNUMBER": {
                           "allowCellWrapping": false,
@@ -430,7 +436,7 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{staff_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"IDNUMBER\"]))}}",
                           "validation": {},
-                          "cellBackground": "#dcfce7"
+                          "cellBackground": "#f0fdf4"
                         },
                         "JOINEDON_": {
                           "allowCellWrapping": false,
@@ -458,7 +464,7 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{staff_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"JOINEDON \"]))}}",
                           "validation": {},
-                          "cellBackground": "#dcfce7"
+                          "cellBackground": "#f0fdf4"
                         },
                         "LEFTON": {
                           "allowCellWrapping": false,
@@ -486,7 +492,7 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{staff_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"LEFTON\"]))}}",
                           "validation": {},
-                          "cellBackground": "#dcfce7"
+                          "cellBackground": "#f0fdf4"
                         },
                         "SALARY": {
                           "allowCellWrapping": false,
@@ -514,7 +520,7 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{staff_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"SALARY\"]))}}",
                           "validation": {},
-                          "cellBackground": "#dcfce7"
+                          "cellBackground": "#f0fdf4"
                         },
                         "ID": {
                           "allowCellWrapping": false,
@@ -542,7 +548,7 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{staff_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"ID\"]))}}",
                           "validation": {},
-                          "cellBackground": "#dcfce7"
+                          "cellBackground": "#f0fdf4"
                         },
                         "rowIndex": {
                           "allowCellWrapping": false,
@@ -570,7 +576,7 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{staff_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"rowIndex\"]))}}",
                           "validation": {},
-                          "cellBackground": "#dcfce7"
+                          "cellBackground": "#f0fdf4"
                         },
                         "PIC": {
                           "allowCellWrapping": false,
@@ -598,10 +604,10 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{staff_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"PIC\"]))}}",
                           "validation": {},
-                          "cellBackground": "#dcfce7"
+                          "cellBackground": "#f0fdf4"
                         }
                       },
-                      "onRowSelected": "{{fetch_staff_details.run(() => showModal('staff_details_modal'), () => {})}}",
+                      "onRowSelected": "{{fetch_staff_details.run(() => showModal('staff_details_modal'), () => showAlert('data could not be retrieved.','error'))}}",
                       "key": "ajl3247egs",
                       "isDeprecated": false,
                       "rightColumn": 63,
@@ -616,7 +622,7 @@
                       "isVisibleSearch": true,
                       "originalTopRow": 5,
                       "isVisiblePagination": true,
-                      "cellBackground": "#dcfce7",
+                      "cellBackground": "#f0fdf4",
                       "verticalAlignment": "CENTER"
                     },
                     {
@@ -631,8 +637,8 @@
                         "parent",
                         "group"
                       ],
-                      "topRow": 47,
-                      "bottomRow": 87,
+                      "topRow": 34,
+                      "bottomRow": 74,
                       "parentRowSpace": 10,
                       "type": "CONTAINER_WIDGET",
                       "hideCard": false,
@@ -1504,7 +1510,7 @@
               ],
               "borderWidth": "1",
               "key": "3snw10lo8c",
-              "backgroundColor": "#f0fdf4",
+              "backgroundColor": "{{appsmith.theme.colors.backgroundColor}}",
               "isDeprecated": false,
               "rightColumn": 64,
               "dynamicHeight": "AUTO_HEIGHT",
@@ -3005,7 +3011,7 @@
                         "label"
                       ],
                       "topRow": 0,
-                      "bottomRow": 5,
+                      "bottomRow": 8,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
@@ -3099,8 +3105,8 @@
                         "paragraph",
                         "label"
                       ],
-                      "topRow": 5,
-                      "bottomRow": 9,
+                      "topRow": 8,
+                      "bottomRow": 12,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
