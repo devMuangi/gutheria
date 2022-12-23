@@ -453,7 +453,7 @@
                               ],
                               "labelPosition": "Top",
                               "labelStyle": "",
-                              "inputType": "TEXT",
+                              "inputType": "PASSWORD",
                               "isDisabled": false,
                               "key": "g1a4zlbpcj",
                               "labelTextSize": "0.875rem",
