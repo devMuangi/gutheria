@@ -2,7 +2,7 @@
   "pluginType": "SAAS",
   "pluginId": "google-sheets-plugin",
   "unpublishedAction": {
-    "name": "delete_customer_details",
+    "name": "fetch_customer_details",
     "datasource": {
       "name": "customer_details",
       "pluginId": "google-sheets-plugin",
@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "customerPage",
+    "pageId": "invoiceGenerator",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -21,7 +21,7 @@
       "selfReferencingDataPaths": [],
       "formData": {
         "command": {
-          "data": "DELETE_ONE"
+          "data": "FETCH_MANY"
         },
         "entityType": {
           "data": "ROWS"
@@ -41,9 +41,6 @@
         "range": {
           "data": ""
         },
-        "rowIndex": {
-          "data": "{{customer_table.selectedRowIndex}}"
-        },
         "sheetName": {
           "data": "customer_details"
         },
@@ -53,34 +50,61 @@
         "smartSubstitution": {
           "data": true
         },
+        "sortBy": {
+          "data": [
+            {
+              "column": "",
+              "order": "Ascending"
+            }
+          ]
+        },
         "tableHeaderIndex": {
           "data": "1"
         },
         "where": {
           "data": {
-            "condition": "AND"
-          }
+            "condition": "AND",
+            "children": [
+              {
+                "condition": "EQ",
+                "key": "CID",
+                "value": "{{customer_table.selectedRow.CID}}"
+              }
+            ]
+          },
+          "componentData": {
+            "condition": "AND",
+            "children": [
+              {
+                "condition": "EQ",
+                "key": "CID",
+                "value": "{{customer_table.selectedRow.CID}}"
+              }
+            ]
+          },
+          "viewType": "component",
+          "jsonData": ""
         }
       }
     },
     "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
-        "key": "formData.rowIndex.data"
+        "key": "formData.where.data.children[0].value"
       }
     ],
     "isValid": true,
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "customer_table.selectedRowIndex"
+      "customer_table.selectedRow.CID"
     ],
     "userSetOnLoad": false,
-    "confirmBeforeExecute": true,
+    "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "customerPage_delete_customer_details",
+  "id": "invoiceGenerator_fetch_customer_details",
   "deleted": false,
-  "gitSyncId": "6392c73f4b95806da2da4ff0_63971bf1038c74195c0a939f"
+  "gitSyncId": "6392c73f4b95806da2da4ff0_63aab837690c8f1a0335d6a9"
 }

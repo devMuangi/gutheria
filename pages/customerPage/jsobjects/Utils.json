@@ -6,7 +6,7 @@
     "pluginType": "JS",
     "actions": [],
     "archivedActions": [],
-    "body": "export default {\n\taddCustomer: async ()=>{\n\t\tconst CID = this.generateRandom();\n\t\tawait add_customer_details.run({id:CID});\n\t\tawait fetch_customers.run();\n\t\tawait resetWidget('add_customer_modal');\n\t\treturn closeModal('add_customer_modal');\n\t},\n\tgenerateRandom:()=>{\n\t\treturn '_' + Math.random().toString(36).substr(2,9);\n\t\t\n\t}\n\n}",
+    "body": "export default {\n\taddCustomer: async ()=>{\n\t\tconst CID = this.generateRandom();\n\t\tawait add_customer_details.run({id:CID});\n\t\tawait fetch_customers.run();\n\t\tawait resetWidget('add_customer_modal');\n\t\treturn closeModal('add_customer_modal');\n\t},\n\tgenerateRandom:()=>{\n\t\treturn '_' + Math.random().toString(36).substr(2,9);\n\t\t}\n\n}",
     "variables": [],
     "userPermissions": []
   },
