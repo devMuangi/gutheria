@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "fetch_pdf",
+    "name": "download_pdf",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "https://rest-us.apitemplate.io"
+        "url": "https://api.carbone.io"
       },
       "invalids": [],
       "messages": [],
@@ -20,8 +20,12 @@
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
-      "path": "/v2/create-pdf",
+      "path": "/render/{{render_pdf.data.data.renderId}}",
       "headers": [
+        {
+          "key": "carbone-version",
+          "value": "4"
+        },
         {
           "key": "content-type",
           "value": "application/json"
@@ -29,31 +33,34 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n  \"invoice_number\": \"INV38379\",\n  \"date\": \"2021-09-30\",\n  \"currency\": \"USD\",\n  \"total_amount\": 82542.56\n}",
-      "bodyFormData": [],
-      "httpMethod": "POST",
+      "body": "{https://api.carbone.io/render/{{render_pdf.data.data.renderId}}}",
+      "httpMethod": "GET",
       "selfReferencingDataPaths": [],
-      "pluginSpecifiedTemplates": [
-        {
-          "value": true
-        }
-      ],
       "formData": {
         "apiContentType": "application/json"
       }
     },
     "executeOnLoad": false,
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      },
+      {
+        "key": "path"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "render_pdf.data.data.renderId"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "invoiceGenerator_fetch_pdf",
+  "id": "invoiceGenerator_download_pdf",
   "deleted": false,
-  "gitSyncId": "6392c73f4b95806da2da4ff0_63ab3c45bc0e8334c729de7a"
+  "gitSyncId": "6392c73f4b95806da2da4ff0_63ae9f82bc0e8334c72a1708"
 }

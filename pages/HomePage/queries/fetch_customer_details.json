@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "invoiceGenerator",
+    "pageId": "HomePage",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -104,7 +104,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "invoiceGenerator_fetch_customer_details",
+  "id": "HomePage_fetch_customer_details",
   "deleted": false,
   "gitSyncId": "6392c73f4b95806da2da4ff0_63aab837690c8f1a0335d6a9"
 }
