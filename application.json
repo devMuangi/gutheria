@@ -6,11 +6,11 @@
     },
     {
       "id": "HomePage",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "logInPage",
-      "isDefault": false
+      "isDefault": true
     },
     {
       "id": "staffPage",
