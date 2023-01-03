@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 71,
+          "version": 74,
           "minHeight": 610,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
@@ -742,7 +742,7 @@
                       "isDisabled": false,
                       "key": "n0l70cy2ml",
                       "isDeprecated": false,
-                      "rightColumn": 26,
+                      "rightColumn": 27,
                       "isDefaultClickDisabled": true,
                       "widgetId": "mq3b0yi807",
                       "isVisible": true,
@@ -882,7 +882,7 @@
               "originalTopRow": 12,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 42,
+              "originalBottomRow": 40,
               "minDynamicHeight": 10
             },
             {

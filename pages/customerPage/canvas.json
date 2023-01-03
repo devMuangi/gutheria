@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 71,
+          "version": 74,
           "minHeight": 1292,
           "dynamicTriggerPathList": [],
           "parentColumnSpace": 1,
@@ -43,8 +43,8 @@
                 "click",
                 "submit"
               ],
-              "topRow": 7,
-              "bottomRow": 11,
+              "topRow": 8,
+              "bottomRow": 12,
               "parentRowSpace": 10,
               "type": "BUTTON_WIDGET",
               "hideCard": false,
@@ -55,13 +55,13 @@
                   "key": "onClick"
                 }
               ],
-              "leftColumn": 37,
+              "leftColumn": 40,
               "dynamicBindingPathList": [],
               "text": "",
               "isDisabled": false,
               "key": "eco3it5urq",
               "isDeprecated": false,
-              "rightColumn": 44,
+              "rightColumn": 47,
               "isDefaultClickDisabled": true,
               "iconName": "refresh",
               "widgetId": "lm6r1pctzs",
@@ -531,6 +531,7 @@
                       "dynamicHeight": "FIXED",
                       "widgetId": "af6rzqp2ac",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "showStepArrows": true,
                       "isVisible": true,
                       "label": "Id No:\n",
                       "version": 2,
@@ -1181,8 +1182,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 29,
-                      "bottomRow": 33,
+                      "topRow": 30,
+                      "bottomRow": 34,
                       "parentRowSpace": 10,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
@@ -1228,8 +1229,8 @@
                         "paragraph",
                         "label"
                       ],
-                      "topRow": 7,
-                      "bottomRow": 11,
+                      "topRow": 8,
+                      "bottomRow": 12,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -1258,7 +1259,7 @@
                       "text": "{{fetch_customer_details.data[0].DESIGNATION}}",
                       "key": "ddnj6u5asp",
                       "isDeprecated": false,
-                      "rightColumn": 55,
+                      "rightColumn": 56,
                       "textAlign": "LEFT",
                       "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "6whxk09m7l",
@@ -1285,8 +1286,8 @@
                         "paragraph",
                         "label"
                       ],
-                      "topRow": 19,
-                      "bottomRow": 23,
+                      "topRow": 20,
+                      "bottomRow": 24,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -1343,7 +1344,7 @@
                         "label"
                       ],
                       "topRow": 2,
-                      "bottomRow": 6,
+                      "bottomRow": 7,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -1398,8 +1399,8 @@
                       "searchTags": [
                         "call"
                       ],
-                      "topRow": 12,
-                      "bottomRow": 17,
+                      "topRow": 13,
+                      "bottomRow": 18,
                       "parentRowSpace": 10,
                       "labelWidth": 5,
                       "defaultDialCode": "+254",
@@ -1462,8 +1463,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 29,
-                      "bottomRow": 33,
+                      "topRow": 30,
+                      "bottomRow": 34,
                       "parentRowSpace": 10,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
@@ -1510,8 +1511,8 @@
                         "paragraph",
                         "label"
                       ],
-                      "topRow": 19,
-                      "bottomRow": 23,
+                      "topRow": 20,
+                      "bottomRow": 24,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -1567,8 +1568,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 29,
-                      "bottomRow": 33,
+                      "topRow": 30,
+                      "bottomRow": 34,
                       "parentRowSpace": 10,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
@@ -1653,8 +1654,8 @@
                 "parent",
                 "group"
               ],
-              "topRow": 0,
-              "bottomRow": 6,
+              "topRow": 1,
+              "bottomRow": 7,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -1778,8 +1779,8 @@
                 "click",
                 "submit"
               ],
-              "topRow": 7,
-              "bottomRow": 11,
+              "topRow": 8,
+              "bottomRow": 12,
               "parentRowSpace": 10,
               "type": "BUTTON_WIDGET",
               "hideCard": false,
@@ -1790,7 +1791,7 @@
                   "key": "onClick"
                 }
               ],
-              "leftColumn": 45,
+              "leftColumn": 49,
               "dynamicBindingPathList": [
                 {
                   "key": "borderRadius"
@@ -1800,7 +1801,7 @@
               "isDisabled": false,
               "key": "eco3it5urq",
               "isDeprecated": false,
-              "rightColumn": 52,
+              "rightColumn": 56,
               "isDefaultClickDisabled": true,
               "iconName": "new-person",
               "widgetId": "w21hcl3owp",
@@ -2869,7 +2870,7 @@
                       "placement": "CENTER"
                     },
                     {
-                      "resetFormOnClick": false,
+                      "resetFormOnClick": true,
                       "boxShadow": "none",
                       "widgetName": "customer_invoice_button",
                       "onClick": "{{navigateTo(\"invoiceGenerator\", {NAME:name_detail.text, DESIGNATION:designation_detail.text,AMOUNT:customer_amount_input.text})}}",
@@ -2918,10 +2919,10 @@
                       "parentId": "kbf48xl8vg",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "originalTopRow": 20,
+                      "originalTopRow": 22,
                       "disabledWhenInvalid": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "originalBottomRow": 24,
+                      "originalBottomRow": 26,
                       "buttonVariant": "PRIMARY",
                       "placement": "CENTER"
                     },
@@ -2968,6 +2969,7 @@
                       "dynamicHeight": "FIXED",
                       "widgetId": "16l3d61xdc",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "showStepArrows": true,
                       "isVisible": true,
                       "label": "Amount",
                       "version": 2,
