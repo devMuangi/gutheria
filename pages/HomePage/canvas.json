@@ -146,7 +146,7 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 45,
+                      "leftColumn": 44,
                       "dynamicBindingPathList": [
                         {
                           "key": "borderRadius"
@@ -156,7 +156,7 @@
                       "isDisabled": false,
                       "key": "dkujxy9q6s",
                       "isDeprecated": false,
-                      "rightColumn": 55,
+                      "rightColumn": 56,
                       "isDefaultClickDisabled": true,
                       "iconName": "log-out",
                       "widgetId": "q75tgxe9z3",
