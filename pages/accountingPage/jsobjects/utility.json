@@ -1,0 +1,16 @@
+{
+  "unpublishedCollection": {
+    "name": "utility",
+    "pageId": "accountingPage",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n paymentDetails: async () => {\n\t\t//use async-await or promises\n\t await storeValue('payment',payments_table.selectedRow);\n\t await get_payments.run();\n\t storeValue('tab','Sales');\n\t showModal('payments_modal');\n\t}\n}",
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "accountingPage_utility",
+  "deleted": false,
+  "gitSyncId": "6392c73f4b95806da2da4ff0_63b6c9d1995e411c46856ba5"
+}
