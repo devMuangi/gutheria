@@ -36,7 +36,7 @@
     "jsonPathKeys": [
       "async () => {\n  await storeValue('payment', payments_table.selectedRow);\n  await get_payments.run();\n  storeValue('tab', 'Sales');\n  showModal('payments_modal');\n}"
     ],
-    "userSetOnLoad": false,
+    "userSetOnLoad": true,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
