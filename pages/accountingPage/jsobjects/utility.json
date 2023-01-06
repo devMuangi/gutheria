@@ -6,7 +6,7 @@
     "pluginType": "JS",
     "actions": [],
     "archivedActions": [],
-    "body": "export default {\n paymentDetails: async () => {\n\t\t//use async-await or promises\n\t await storeValue('payment',payments_table.selectedRow);\n\t await get_payments.run();\n\t storeValue('tab','Sales');\n\t showModal('payments_modal');\n\t}\n}",
+    "body": "export default {\t\t\n paymentDetails: async () => {\n\t\t//use async-await or promises\n\t await storeValue('payment',payments_table.selectedRow);\n\t await get_payments.run();\n\t storeValue('tab','Sales');\n\t showModal('payments_modal');\n\t}\n}",
     "variables": [],
     "userPermissions": []
   },
