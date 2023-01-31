@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "dau",
+    "pageId": "accountingPage",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "headers",
+        "value": "{\n  ContentType: application / json,\n  Authorization: Bearer\n}"
+      },
+      {
+        "name": "body",
+        "value": "JSON.stringify({\n  \"BusinessShortCode\": 174379,\n  \"Password\": \"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjMwMTE4MTAxODU2\",\n  \"Timestamp\": \"20230118101856\",\n  \"TransactionType\": \"CustomerPayBillOnline\",\n  \"Amount\": 1,\n  \"PartyA\": 254790071751,\n  \"PartyB\": 174379,\n  \"PhoneNumber\": 254790071751,\n  \"CallBackURL\": \"https://gutheria.com/knowledge\",\n  \"AccountReference\": \"GutheriaLTD\",\n  \"TransactionDesc\": \"Collection\"\n})"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "accountingPage_dau",
+  "deleted": false,
+  "gitSyncId": "6392c73f4b95806da2da4ff0_63c7a17d7a37c13f6f084adf"
+}

@@ -6,7 +6,6 @@
     "pluginType": "JS",
     "actions": [],
     "archivedActions": [],
-    "body": "export default {\n\n\tgenerateRandom:()=>{\n\t\treturn '_' + Math.random().toString(36).substr(2,9);\n\t\t\n\t}\n\n}",
     "variables": [],
     "userPermissions": []
   },

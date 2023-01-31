@@ -1,0 +1,28 @@
+{
+  "unpublishedCollection": {
+    "name": "mpesaconfig",
+    "pageId": "HomePage",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "Timestamp",
+        "value": "new Date().toISOString()"
+      },
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "HomePage_mpesaconfig",
+  "deleted": false,
+  "gitSyncId": "6392c73f4b95806da2da4ff0_63cc0958af0003311d22bc2b"
+}
