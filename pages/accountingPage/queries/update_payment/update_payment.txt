@@ -1,0 +1,6 @@
+UPDATE public."payments" SET
+    "created_at"="{{moment(last_pay_date.selectedDate).format('YYYY-MM-DD HH:mm:ss')}}",
+    "confirmation"={{payment_update_radio.isRequired}},
+    "amount"="{{current_payment_update.text}}",
+    "expiry_date"="{{moment(update_date_pay.selectedDate).format('YYYY-MM-DD HH:mm:ss')}}"
+  WHERE id={{payments_table.selectedRow.id}};

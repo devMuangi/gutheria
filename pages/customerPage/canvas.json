@@ -13,13 +13,13 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1290,
+          "bottomRow": 490,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 74,
+          "version": 79,
           "minHeight": 1292,
           "dynamicTriggerPathList": [],
           "parentColumnSpace": 1,
@@ -112,7 +112,7 @@
                   "widgetName": "Canvas1",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 696,
+                  "bottomRow": 690,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": true,
@@ -671,7 +671,7 @@
                   "widgetName": "Canvas2",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 820,
+                  "bottomRow": 800,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -723,9 +723,6 @@
                           "key": "primaryColumns.PHONENO.computedValue"
                         },
                         {
-                          "key": "primaryColumns.JOINEDON.computedValue"
-                        },
-                        {
                           "key": "primaryColumns.NAME.computedValue"
                         },
                         {
@@ -748,9 +745,6 @@
                         },
                         {
                           "key": "primaryColumns.PHONENO.cellBackground"
-                        },
-                        {
-                          "key": "primaryColumns.JOINEDON.cellBackground"
                         },
                         {
                           "key": "primaryColumns.NAME.cellBackground"
@@ -793,6 +787,7 @@
                       },
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "originalBottomRow": 82,
+                      "columnUpdatedAt": 1684940955271,
                       "defaultSelectedRowIndices": [
                         0
                       ],
@@ -805,7 +800,6 @@
                         "rowIndex",
                         "CID",
                         "PHONENO",
-                        "JOINEDON",
                         "NAME"
                       ],
                       "dynamicPropertyPathList": [],
@@ -851,7 +845,8 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{customer_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"AMOUNT\"]))}}",
                           "validation": {},
-                          "cellBackground": "{{appsmith.theme.colors.backgroundColor}}"
+                          "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
+                          "sticky": ""
                         },
                         "DESIGNATION": {
                           "allowCellWrapping": false,
@@ -879,7 +874,8 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{customer_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"DESIGNATION\"]))}}",
                           "validation": {},
-                          "cellBackground": "{{appsmith.theme.colors.backgroundColor}}"
+                          "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
+                          "sticky": ""
                         },
                         "LOCATION": {
                           "allowCellWrapping": false,
@@ -907,7 +903,8 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{customer_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"LOCATION\"]))}}",
                           "validation": {},
-                          "cellBackground": "{{appsmith.theme.colors.backgroundColor}}"
+                          "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
+                          "sticky": ""
                         },
                         "rowIndex": {
                           "allowCellWrapping": false,
@@ -935,7 +932,8 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{customer_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"rowIndex\"]))}}",
                           "validation": {},
-                          "cellBackground": "{{appsmith.theme.colors.backgroundColor}}"
+                          "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
+                          "sticky": ""
                         },
                         "CID": {
                           "allowCellWrapping": false,
@@ -963,7 +961,8 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{customer_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"CID\"]))}}",
                           "validation": {},
-                          "cellBackground": "{{appsmith.theme.colors.backgroundColor}}"
+                          "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
+                          "sticky": ""
                         },
                         "PHONENO": {
                           "allowCellWrapping": false,
@@ -991,35 +990,8 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{customer_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"PHONENO\"]))}}",
                           "validation": {},
-                          "cellBackground": "{{appsmith.theme.colors.backgroundColor}}"
-                        },
-                        "JOINEDON": {
-                          "allowCellWrapping": false,
-                          "index": 6,
-                          "width": 150,
-                          "originalId": "JOINEDON",
-                          "id": "JOINEDON",
-                          "alias": "JOINEDON",
-                          "horizontalAlignment": "LEFT",
-                          "verticalAlignment": "CENTER",
-                          "columnType": "date",
-                          "textColor": "",
-                          "textSize": "1rem",
-                          "fontStyle": "BOLD",
-                          "enableFilter": true,
-                          "enableSort": true,
-                          "isVisible": false,
-                          "isDisabled": false,
-                          "isCellEditable": false,
-                          "isEditable": false,
-                          "isCellVisible": true,
-                          "isDerived": false,
-                          "label": "JOINEDON",
-                          "isSaveVisible": true,
-                          "isDiscardVisible": true,
-                          "computedValue": "{{customer_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"JOINEDON\"]))}}",
-                          "validation": {},
-                          "cellBackground": "{{appsmith.theme.colors.backgroundColor}}"
+                          "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
+                          "sticky": ""
                         },
                         "NAME": {
                           "allowCellWrapping": false,
@@ -1047,11 +1019,13 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{customer_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"NAME\"]))}}",
                           "validation": {},
-                          "cellBackground": "{{appsmith.theme.colors.backgroundColor}}"
+                          "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
+                          "sticky": ""
                         }
                       },
                       "onRowSelected": "{{fetch_customer_details.run(() => {}, () => {})}}",
                       "key": "31ng1lkeic",
+                      "canFreezeColumn": false,
                       "isDeprecated": false,
                       "rightColumn": 64,
                       "textSize": "1rem",
@@ -1193,7 +1167,7 @@
                   "widgetName": "Canvas3",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 350,
+                  "bottomRow": 360,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -1889,7 +1863,7 @@
                   "widgetName": "Canvas5",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 520,
+                  "bottomRow": 500,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": true,
@@ -2389,7 +2363,7 @@
                 "notification"
               ],
               "topRow": 0,
-              "bottomRow": 24,
+              "bottomRow": 240,
               "parentRowSpace": 1,
               "type": "MODAL_WIDGET",
               "hideCard": false,
@@ -2690,7 +2664,7 @@
                 }
               ],
               "key": "dkkwpmodtv",
-              "height": 260,
+              "height": 240,
               "isDeprecated": false,
               "rightColumn": 0,
               "detachFromLayout": true,
@@ -2720,7 +2694,7 @@
                 "notification"
               ],
               "topRow": 0,
-              "bottomRow": 28,
+              "bottomRow": 280,
               "parentRowSpace": 1,
               "type": "MODAL_WIDGET",
               "hideCard": false,
@@ -3036,7 +3010,7 @@
                 }
               ],
               "key": "wvwkxdx5cs",
-              "height": 300,
+              "height": 280,
               "isDeprecated": false,
               "rightColumn": 0,
               "detachFromLayout": true,

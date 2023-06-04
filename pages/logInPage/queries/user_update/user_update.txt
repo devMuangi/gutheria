@@ -1,0 +1,7 @@
+{
+  "email": "someone@email.com",
+  "password": "new-password",
+  "data": {
+    "key": "value"
+  }
+}

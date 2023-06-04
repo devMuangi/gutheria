@@ -1,0 +1,13 @@
+{{  {
+    "BusinessShortCode": 174379,
+    "Password":"{{btoa(Shortcode + Passkey + Timestamp)}}",
+    "Timestamp": "{{Date.toLocaleString()}}",
+    "TransactionType": "CustomerPayBillOnline",
+    "Amount": 1,
+    "PartyA": 254708374149,
+    "PartyB": 174379,
+    "PhoneNumber": 254708374149,
+    "CallBackURL": "https://app.appsmith.com/app/gutheria/homepage-639870fc038c74195c0ab098/edit/api/63c79c077a37c13f6f084a9d?branch=main",
+    "AccountReference": "CompanyXLTD",
+    "TransactionDesc": "Payment of X" 
+  }}}

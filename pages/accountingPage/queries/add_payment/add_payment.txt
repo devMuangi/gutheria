@@ -1,0 +1,21 @@
+INSERT INTO public."payments"
+  (
+    "customer",
+    "staff",
+    "receipt_no",
+    "confirmation",
+    "amount",
+    "expiry_date",
+    "description",
+    "customer_phone"
+    )
+VALUES
+  (
+    {{ tcustomer_name.text }},
+    {{ texpiryDate.formattedDate}},
+    {{ tstaff_name.text }},
+		{{ treceipt_no.text}},
+		{{ tconfirmation.isRequired}},
+		{{ tdescription.text}},
+		
+  );

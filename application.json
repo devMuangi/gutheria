@@ -19,10 +19,6 @@
     {
       "id": "accountingPage",
       "isDefault": false
-    },
-    {
-      "id": "invoiceGenerator",
-      "isDefault": false
     }
   ],
   "viewMode": false,
